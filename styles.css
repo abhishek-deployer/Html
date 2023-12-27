@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://media.istockphoto.com/id/1632117936/photo/happy-thanksgiving-day-greeting-card-calligraphy-text-with-fall-pumpkins-squash-cozy-warm.jpg?s=1024x1024&w=is&k=20&c=gu9Z_o5TUpnoedqtOBu-MHrJx84CEL-6UwrfGSMu0rc=");
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+/* Create two columns/boxes that float next to each other */
+nav {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+/* Style the list inside the menu */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    
+    color: #333;
+    font-size: 1.2em;
+    display: block;
+    padding: 10px 0;
+    transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #e44d26;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul a {
+    
+    color: #333;
+    font-weight: bold;
+}
+
+ul a:hover {
+    color: #e44d26;
+}
